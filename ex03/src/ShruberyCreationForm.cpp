@@ -12,7 +12,6 @@
 
 #include "AForm.hpp"
 #include "ShruberyCreationForm.hpp"
-#include <fstream>
 
 ShruberyCreationForm::ShruberyCreationForm() : AForm("Default", 145, 137)
 {

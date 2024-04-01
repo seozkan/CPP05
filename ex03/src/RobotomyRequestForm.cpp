@@ -11,10 +11,7 @@
 /* ************************************************************************** */
 
 #include "AForm.hpp"
-#include "ShruberyCreationForm.hpp"
 #include "RobotomyRequestForm.hpp"
-#include <fstream>
-#include <cstdlib>
 
 RobotomyRequestForm::RobotomyRequestForm() : AForm("Default", 72, 45)
 {

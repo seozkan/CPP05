@@ -15,6 +15,7 @@
 
 #include "Bureaucrat.hpp"
 #include "AForm.hpp"
+#include <fstream>
 
 class ShruberyCreationForm : public AForm 
 {
