@@ -12,6 +12,7 @@
 
 #ifndef SHRUBERYCREATIONFORM_HPP
 # define SHRUBERYCREATIONFORM_HPP
+
 #include "Bureaucrat.hpp"
 #include "AForm.hpp"
 

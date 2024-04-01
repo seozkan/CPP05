@@ -77,8 +77,10 @@ void Bureaucrat::decrementGrade(int toDec)
 		if (_grade + toDec > 150)
 			throw Bureaucrat::GradetooLowException();
 		else
+		{
 			_grade += toDec;
 			std::cout <<"Decrement " << _name << " grade by: "<< toDec <<std::endl;
+		}
 	}
 	catch(const std::exception& e)
 	{

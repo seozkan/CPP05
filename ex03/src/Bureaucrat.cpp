@@ -61,7 +61,7 @@ void Bureaucrat::incrementGrade(int toInc)
 		}else
 		{
 			_grade -= toInc;
-			std::cout << "Incremented " << _name << " grade by: " << toInc<<std::endl;
+			std::cout << "Incremented " << _name << " grade by: " << toInc << std::endl;
 		}
 	} 
 	catch (const Bureaucrat::GradetooHighException& e)
@@ -91,7 +91,7 @@ void Bureaucrat::decrementGrade(int toDec)
 
 std::ostream& Bureaucrat::operator<<(std::ostream& cout)
 {
-	cout <<this->getName()<<", bureaucrat grade " << this->getGrade()<<std::endl;
+	cout << this->getName() << ", bureaucrat grade " << this->getGrade() << std::endl;
 	return (cout);
 }
 
@@ -121,8 +121,8 @@ void Bureaucrat::executeForm(AForm const & form)
 		}
 		catch(const std::exception& e)
 		{
-			std::cerr << "cannot execute '"<< form.getName()
-			<<"' because: "
+			std::cerr << "cannot execute '" << form.getName()
+			<< "' because: "
 			<< e.what() << '\n';
 		}
 		

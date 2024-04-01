@@ -28,6 +28,7 @@ static void testOk()
 	b.signForm(*f);
 	b.executeForm(*f);
 	std::cout << YELLOW "TEST OK END" RST << std::endl;
+	delete f;
 }
 
 static void testException()
@@ -40,6 +41,7 @@ static void testException()
 	b.signForm(*f);
 	b.executeForm(*f);
 	std::cout << YELLOW "TEST EXCEPTION END" RST << std::endl;
+	delete f;
 }
 
 int main(void)

@@ -48,9 +48,7 @@ _gradeExec(toCopy._gradeExec)
 AForm& AForm::operator=(const AForm& toCopy)
 {
 	if (this != &toCopy)
-	{
 		_isSigned = toCopy._isSigned;
-	}
 	return (*this);
 }
 
