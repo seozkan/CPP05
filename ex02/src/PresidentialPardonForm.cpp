@@ -15,7 +15,6 @@
 
 PresidentialPardonForm::PresidentialPardonForm() : AForm("Default", 25, 5)
 {
-	_target = _target;
 	_executed = false;
 }
 

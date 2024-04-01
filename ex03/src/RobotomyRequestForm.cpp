@@ -15,7 +15,6 @@
 
 RobotomyRequestForm::RobotomyRequestForm() : AForm("Default", 72, 45)
 {
-	_target = _target;
 	_executed = false;
 }
 

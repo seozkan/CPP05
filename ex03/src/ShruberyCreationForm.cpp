@@ -15,7 +15,7 @@
 
 ShruberyCreationForm::ShruberyCreationForm() : AForm("Default", 145, 137)
 {
-	_target = _target;
+	return ;
 }
 
 ShruberyCreationForm::ShruberyCreationForm(std::string target): AForm("Shrubery", 145, 137)
